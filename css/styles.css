@@ -1,0 +1,82 @@
+@import url("colors.css");
+@import url("variables.css");
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+button {
+    font-size: var(--font-size-buttons);
+    text-align: center;
+    align-self: center;
+}
+
+.nav-link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: var(--color-text);
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: white;
+    border: none;
+    min-width: 100px;
+    border-radius: 40px;
+    background-color: var(--color-primary);
+}
+
+#nbar {
+    float: right;
+}
+
+#quienes-somos {
+    background-color: var(--color-secondary);
+    height: 50vh;
+}
+
+#main-banner {
+    color: white;
+    height: 90vh;
+    background: url("/img/banner-principal.jpg");
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+}
+
+section div * {
+    align-self: center;
+}
+
+.text {
+    font-size: var(--font-size-text-banner);
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: var(--font-size-title);
+}
+
+#main-banner .title {
+    font-size: var(--font-size-main-banner);
+}
+
+.pre-title {
+    color: var(--color-primary);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: var(--font-size-pre-title);
+}

@@ -1,0 +1,19 @@
+:root {
+    /* padding dimensions */
+    --padding-h-mobile: 10px;
+    --padding-h-tablet: 30px;
+    --padding-h-desktop: 40px;
+    --padding-v-mobile: 15px;
+    --padding-v-tablet: 20px;
+    --padding-v-desktop: 12px;
+    /* font sizes */
+    --font-size-main-banner: 40px;
+    --font-size-text-banner: 22px;
+    --font-size-title: 28px;
+    --font-size-pre-title: 12px;
+    --font-size-gral-text: 16px;
+    --font-size-join-us: 23px;
+    --font-size-buttons: 16px;
+    --font-size-footer: 12px;
+    --font-size-copyright: 14px;
+}
