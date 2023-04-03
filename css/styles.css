@@ -4,13 +4,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-a,
-button {
-    font-size: var(--font-size-buttons);
-    text-align: center;
-    align-self: center;
-}
-
 .nav-link {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
@@ -27,10 +20,6 @@ button {
     background-color: var(--color-primary);
 }
 
-#nbar {
-    float: right;
-}
-
 #quienes-somos {
     background-color: var(--color-secondary);
     height: 50vh;
@@ -38,7 +27,7 @@ button {
 
 #main-banner {
     color: white;
-    height: 90vh;
+    height: 100vh;
     background: url("/img/banner-principal.jpg");
 }
 
