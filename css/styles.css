@@ -18,6 +18,47 @@
     min-width: 100px;
     border-radius: 40px;
     background-color: var(--color-primary);
+    align-self: center;
+}
+
+section {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+}
+
+.pre-title {
+    color: var(--color-primary);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: var(--font-size-pre-title);
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: var(--font-size-title);
+}
+
+#main-banner .title {
+    font-size: var(--font-size-main-banner);
+}
+
+.text {
+    font-size: var(--font-size-gral-text);
+}
+
+.card h3 {
+    color: var(--color-primary);
 }
 
 #quienes-somos {
@@ -31,41 +72,9 @@
     background: url("/clase11/img/banner-principal.jpg");
 }
 
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-section div {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 500px;
-    text-align: center;
-}
-
-section div * {
-    align-self: center;
-}
-
-.text {
-    font-size: var(--font-size-text-banner);
-}
-
-.title {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 900;
-    font-size: var(--font-size-title);
-}
-
-#main-banner .title {
-    font-size: var(--font-size-main-banner);
-}
-
-.pre-title {
-    color: var(--color-primary);
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    font-size: var(--font-size-pre-title);
+#sumate {
+    padding: 20px 0;
+    color: white;
+    background-color: var(--color-primary);
+    font-size: var(--font-size-join-us);
 }
